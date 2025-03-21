@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Shawn Casey - Software Engineer specializing in embedded systems, quantum computing, and AI" />
+    <meta name="keywords"
+        content="Shawn Casey, Software Engineer, UConn, Computer Science, Embedded Systems, Quantum Computing, AI, ML, Entrepreneur" />
+    <meta name="author" content="Shawn Casey" />
+    <meta property="og:title" content="Shawn Casey | Software Engineer" />
+    <meta property="og:author" content="Shawn Casey" />
+    <meta property="og:image" content="images/me.jpg" />
+    <meta property="og:description"
+        content="Shawn Casey - Software Engineer specializing in embedded systems, quantum computing, and artificial intelligence" />
+    <meta property="og:url" content="https://Shawnecasey.com/" />
+    <title>Shawn Casey | Software Engineer</title>
+    <link rel="shortcut icon" href="images/me.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD61P57LBK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XD61P57LBK');
+    </script>
+</head>
+
+<body> <a id="top"></a>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li class="left-nav"> <a href="#top">Shawn Casey</a> </li>
+            <li class="right-nav">
+                <a href="#projects">Projects</a>
+                <a href="#experiences">Experience</a>
+                <a href="#involvement">Involvement</a>
+                <a href="#about">About</a>
+            </li>
+        </ul>
+        
+    </nav>
+    <button class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+    
+    <!-- Social sidebar -->
+    <div class="sidebar-line"></div>
+    <div class="side-icons">
+        <a href="https://www.linkedin.com/in/shawncaseyx/" target="_blank" class="linkedinicon">
+            <img alt="LinkedIn profile" src="images/linkedinimg.png" class="linkedinlogo">
+        </a>
+        <a href="https://github.com/Shawnecasey" target="_blank" class="githubicon">
+            <img alt="GitHub profile" src="images/githubimg.png" class="githublogo">
+        </a>
+        <a href="mailto:shawn.casey@uconn.edu" target="_blank" class="emailicon">
+            <img alt="Email contact" src="images/emailimg.png" class="emaillogo">
+        </a>
+    </div>
+
+    <!-- Header section -->
+    <header>
+        <div class="header-content">
+            <div class="header-pulse">
+                <h1><span>Hi,</span> I'm Shawn.</h1>
+                <p>A computer scientist student.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-head">— Projects —</h2>
+
+        <div class="project1">
+            <div class="project-img-container">
+                <img alt="Interactive Snake Game on Raspberry Pi Pico" src="images/kiwiSetupDebug.png" class="project-img1">
+            </div>
+            <div class="project-title1">
+                <h3>Kiwi-Pico Snake Game</h3>
+            </div>
+            <div class="project-description1">
+                <p>Developed an embedded Snake game for the Raspberry Pi Pico microcontroller with a custom C implementation. Utilized TinyUSB and PicoDVI libraries to enable external keyboard input and real-time display output, featuring hardware-optimized rendering, interrupt-driven input handling, and efficient memory management for resource-constrained environments.</p>
+            </div>
+            <div class="project-skills1">
+                <h4 class="skillsused1">Embedded Systems &emsp; C &emsp; CMake &emsp; RP2040 &emsp; Memory Management</h4>
+            </div>
+            <a href="https://github.com/cytrence/kiwi-pico" target="_blank">
+                <img alt="GitHub repository" src="images/githubimg.png" class="github-logo1">
+            </a>
+        </div>
+
+        <div class="project2">
+            <div class="project-img-container">
+                <img alt="Plot showing tie rod force, G-forces, and detected anomalies over time during vehicle dynamics analysis." src="images/tieRod2.png" class="project-img2">
+            </div>
+            <div class="project-title2">
+                <h3>Race Car Tie Rod Force Analysis</h3>
+            </div>
+            <div class="project-description2">
+                <p>Engineered a data analysis pipeline to correlate tie rod force with lateral and inline G-forces using regression modeling. Implemented anomaly detection based on G-force categories, visualized with interactive Plotly dashboards, and optimized signal smoothing for high-resolution time series data.</p>
+            </div>
+            <div class="project-skills2">
+                <h4 class="skillsused2">Python &emsp; NumPy &emsp; Pandas &emsp; Plotly</h4>
+            </div>
+            <a href="https://github.com/shawn-casey/tieRodAnalysisFSAE" target="_blank">
+                <img alt="GitHub repository" src="images/githubimg.png" class="github-logo2">
+            </a>
+        </div>
+
+        <div class="project3">
+            <div class="project-img-container">
+                <img alt="Pan tilt servo with pi" src="images/panTilt.png" class="project-img3">
+            </div>
+            <div class="project-title3">
+                <h3>Face Tracking Pan/Tilt Pi 5</h3>
+            </div>
+            <div class="project-description3">
+                <p>Created a real-time face tracking system using Raspberry Pi and OpenCV. Utilized Haar Cascade detection to identify faces and controlled pan-tilt servos with PID smoothing for accurate tracking. Streamed live video over RTSP with GStreamer and added manual override using keyboard input for full control.</p>
+            </div>
+            <div class="project-skills3">
+                <h4 class="skillsused3">Python &emsp; Servo Control &emsp; Multithreading &emsp; OpenCV</h4>
+            </div>
+            <a href="https://github.com/shawn-casey/pi5FaceTracker" target="_blank">
+                <img alt="GitHub repository" src="images/githubimg.png" class="github-logo3">
+            </a>
+        </div>
+
+        <div class="project4">
+            <div class="project-img-container">
+                <img alt="Responsive website design across devices" src="images/mockup.png" class="project-img4">
+            </div>
+            <div class="project-title4">
+                <h3>Portfolio Website</h3>
+            </div>
+            <div class="project-description4">
+                <p>Built a fully responsive professional portfolio using modern web technologies, ensuring seamless performance across all devices. Applied responsive design techniques, optimized asset delivery, integrated Google Analytics, and crafted custom animations to enhance user engagement and experience.</p>
+            </div>
+            <div class="project-skills4">
+                <h4 class="skillsused4">JavaScript &emsp; HTML5 &emsp; CSS3 &emsp; Responsive Design</h4>
+            </div>
+            <a href="https://github.com/Shawnecasey/Shawnecasey.github.io" target="_blank">
+                <img alt="GitHub repository" src="images/githubimg.png" class="github-logo4">
+            </a>
+        </div>
+    </section>
+
+    <!-- Experiences section -->
+    <section class="experiences" id="experiences">
+        <h2 class="experiences-head">— Experience —</h2>
+
+        <div class="exp-card-container">
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Software Engineer Intern</div>
+                    <img alt="US Bank logo" class="head-image" src="images/USBank.png" />
+                </div>
+                <div class="card-pos">U.S. Bancorp</div>
+                <div class="card-item">
+                    Developed and delivered MVPs with full stack functionality, implementing APIs and efficient algorithms for performance. Collaborated in fast-paced teams to prioritize user needs, manage secure deployments, and maintain version control with Git.
+                </div>
+            </div>
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Firmware Engineering Intern</div>
+                    <img alt="Cytrence logo" class="head-image2" src="images/cytrence2.png" />
+                </div>
+                <div class="card-pos">Cytrence Technologies</div>
+                <div class="card-item">
+                    Practiced firmware development at a late-stage startup in the Nvidia Inception Program, configuring Arm64 and dual-core Cortex-M0+ architectures. Built cross-compilation workflows with Make, CMake, and Docker across Windows, Linux, and Mac.
+                </div>
+            </div>
+        </div>
+
+        <div class="exp-card-container">
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Quantum Computing Research Assistant</div>
+                    <img alt="Venture capital investment icon" class="head-image3" src="images/ketPsi.png" />
+                </div>
+                <div class="card-pos">UConn School of Computing</div>
+                <div class="card-item">
+                    Assisting in optimizing key generation for satellite QKD by evaluating post-processing methods and running simulations to analyze key rate performance across varying conditions. Investigating pump power and sampling rates to enhance efficiency.
+                </div>
+            </div>
+        </div>
+
+        <div class="exp-card-container">
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Mock Security Analyst</div>
+                    <img alt="IBM logo" class="head-image6" src="images/IBM.png" />
+                </div>
+                <div class="card-pos">IBM SkillsBuild</div>
+                <div class="card-item">
+                    Used Shodan, sock puppets, OSINTFramework.com, OpenVAS, and packet capture tools for vulnerability assessments. Articulated technical findings concisely to stakeholders, enabling strategic decision-making. Leveraged public research and internal investigations to identify vulnerabilities and foster proactive risk management.
+                </div>
+            </div>
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Co-Founder</div>
+                    <img alt="Car detailing icon" class="head-image6" src="images/c&gLogo.png" />
+                </div>
+                <div class="card-pos">C & G Car Detailing</div>
+                <div class="card-item">
+                    Oversaw and mentored a team of 4, improving operational efficiency and ensuring on-time project delivery. Launched targeted marketing campaigns, increasing clientele by 50% and driving revenue growth. Built a student-focused business, earning 25 five-star reviews and expanding steadily.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Involvement-->
+    <section class="involvement" id="involvement">
+        <h2 class="involvement-head">— Involvement —</h2>
+
+        <div class="inv-card-container">
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Electronics/Data Acquisition</div>
+                    <img alt="Race car icon" class="head-image4" src="images/FSAE.png" />
+                </div>
+                <div class="card-pos">UConn Formula SAE</div>
+                <div class="card-item">
+                    Analyized sensor data from every system on the car to optimize performance and reliability. Designed and builts tools like a suspension damper dyno for pre-installation testing, along with developing the wiring harness, control pedals, and other critical electronic systems.
+                </div>
+            </div>
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Philanthropy Chairman</div>
+                    <img alt="Charity icon" class="head-image5" src="images/piKapp.png" />
+                </div>
+                <div class="card-pos">Pi Kappa Phi, Kappa Omicron Chapter</div>
+                <div class="card-item">
+                    Led efforts raising over $43,000 for The Ability Experience and other causes, boosting organizational goodwill. Managed a 12-hour service requirement and organized events to promote community engagement and altruism.
+                </div>
+            </div>
+        </div>
+
+        <div class="inv-card-container">
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">DEI Captain</div>
+                    <img alt="Dance marathon icon" class="head-image6" src="images/huskython.png" />
+                </div>
+                <div class="card-pos">HuskyTHON Dance Marathon</div>
+                <div class="card-item">
+                    Led initiatives to ensure all students could participate regardless of background, boosting inclusivity and engagement. Increased registration by 18.6% through accessibility-focused outreach and fundraising, contributing to a record-breaking $2.1 million for Connecticut Children's.
+                </div>
+            </div>
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Mentor</div>
+                    <img alt="Mentorship icon" class="head-image6" src="images/amp.png" />
+                </div>
+                <div class="card-pos">Asian Mentoring Program</div>
+                <div class="card-item">
+                    Support freshman in navigating college life, accessing resources, and setting academic and personal goals. Lead workshops that promote academic success, social integration, leadership development, and exploration of Asian American identity, fostering both mentee growth and my own skills as a peer leader.
+                </div>
+            </div>
+        </div>
+
+        <div class="inv-card-container">
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Teammate</div>
+                    <img alt="Race car icon" class="head-image4" src="images/UConnUltimate.png" />
+                </div>
+                <div class="card-pos">UConn Men's Club Ultimate Frisbee</div>
+            </div>
+            <div class="card">
+                <div class="head-item">
+                    <div class="card-title">Member</div>
+                    <img alt="Race car icon" class="head-image4" src="images/ucoc.png" />
+                </div>
+                <div class="card-pos">UConn Outing Club</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <h2 class="about-head">— About Me —</h2>
+
+        <img alt="Professional headshot of Shawn Casey" src="images/headshot.png" id="headshot"/>
+
+        <div class="ab-card-container1">
+            <div class="ab-card">
+                <div class="ab-head-item1">
+                    <div class="ab-title1">Education</div>
+                </div>
+                <div class="ab-card-item1">
+                    B.S. in Computer Science<br>
+                    University of Connecticut — Expected 2026<br>
+                    Minor: Mathematics
+                </div>
+            </div>
+            <div class="ab-card">
+                <div class="ab-head-item2">
+                    <div class="ab-title2">Interests</div>
+                </div>
+                <div class="ab-card-item1">- Mountain Biking</div>
+                <div class="ab-card-item1">- Technology Entrepreneurship</div>
+                <div class="ab-card-item1">- Cars</div>
+                <div class="ab-card-item1">- Alpine Skiing</div>
+            </div>
+        </div>
+
+        <div class="ab-card-container">
+            <div class="ab-card">
+                <div class="ab-head-item2">
+                    <div class="ab-title2">Looking Forward</div>
+                </div>
+                <div class="ab-card-item1">
+                    Seeking opportunities at companies pushing the boundaries of innovation and striving to redefine what's possible.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> &copy; Shawn Casey 2025.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute("href")).scrollIntoView({
+                    behavior: "smooth",
+                });
+            });
+        });
+    </script>
+
+    <script>
+        // Hamburger menu functionality
+        const hamburger = document.querySelector('.hamburger');
+        const rightNav = document.querySelector('.right-nav');
+        const overlay = document.querySelector('.overlay');
+        const navLinks = document.querySelectorAll('.right-nav a');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            rightNav.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = rightNav.classList.contains('active') ? 'hidden' : 'auto';
+        });
+        
+        // Close menu when clicking on a link
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                rightNav.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            });
+        });
+        
+        // Close menu when clicking on overlay
+        overlay.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            rightNav.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+    </script>
+</body>
+
+</html>
