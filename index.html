@@ -55,7 +55,7 @@
         <a href="https://www.linkedin.com/in/shawncaseyx/" target="_blank" class="linkedinicon">
             <img alt="LinkedIn profile" src="images/linkedinimg.png" class="linkedinlogo">
         </a>
-        <a href="https://github.com/Shawnecasey" target="_blank" class="githubicon">
+        <a href="https://github.com/shawn-casey" target="_blank" class="githubicon">
             <img alt="GitHub profile" src="images/githubimg.png" class="githublogo">
         </a>
         <a href="mailto:shawn.casey@uconn.edu" target="_blank" class="emailicon">
@@ -68,7 +68,7 @@
         <div class="header-content">
             <div class="header-pulse">
                 <h1><span>Hi,</span> I'm Shawn.</h1>
-                <p>A computer scientist student.</p>
+                <p>A computer science student.</p>
             </div>
         </div>
     </header>
@@ -340,7 +340,6 @@
     </script>
 
     <script>
-        // Hamburger menu functionality
         const hamburger = document.querySelector('.hamburger');
         const rightNav = document.querySelector('.right-nav');
         const overlay = document.querySelector('.overlay');
@@ -352,8 +351,7 @@
             overlay.classList.toggle('active');
             document.body.style.overflow = rightNav.classList.contains('active') ? 'hidden' : 'auto';
         });
-        
-        // Close menu when clicking on a link
+
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
                 hamburger.classList.remove('active');
@@ -362,8 +360,7 @@
                 document.body.style.overflow = 'auto';
             });
         });
-        
-        // Close menu when clicking on overlay
+
         overlay.addEventListener('click', () => {
             hamburger.classList.remove('active');
             rightNav.classList.remove('active');
